@@ -11,7 +11,7 @@ server.listen(process.env.PORT || 3978, function(){
 });
 server.get('/', restify.serveStatic({
  directory: __dirname,
- default: 'index.html'
+ default: '/index.html'
 }));
 
 //Create a bot
