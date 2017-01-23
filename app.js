@@ -1,8 +1,8 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 
- appID = process.env.MY_APP_ID || "MISSING ID";
- appPassword = process.env.MY_APP_PASSWORD || "MISSING PASSWORD";
+ var appID = process.env.MY_APP_ID || "MISSING ID";
+ var appPassword = process.env.MY_APP_PASSWORD || "MISSING PASSWORD";
 
 //Creating restify server
 var server = restify.createServer();
