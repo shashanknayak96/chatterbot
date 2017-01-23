@@ -8,8 +8,13 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}\\index.js",
-            "cwd": "${workspaceRoot}"
+            "program": "${workspaceRoot}/app.js",
+            "cwd": "${workspaceRoot}",
+            "env":{
+                "NODE_ENV": "development",
+                "MY_APP_ID": "8812b9b3-1f99-47a3-bd31-5b65e4608823",
+                "MY_APP_PASSWORD": "3bsGSXhfzbjbcuqCQnNhgXC"
+            }
         },
         {
             "type": "node",
