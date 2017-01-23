@@ -1,0 +1,23 @@
+{
+  "name": "chatterbot",
+  "version": "1.0.0",
+  "description": "A bot to chat with",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashanknayak96/chatterbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashanknayak96/chatterbot/issues"
+  },
+  "homepage": "https://github.com/shashanknayak96/chatterbot#readme",
+  "dependencies": {
+    "botbuilder": "^3.5.3",
+    "restify": "^4.3.0"
+  }
+}
