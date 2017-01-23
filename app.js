@@ -9,6 +9,10 @@ var server = restify.createServer();
 server.listen(process.env.PORT || 3978, function(){
     console.log('%s listening to %s',server.name, server.url);
 });
+server.get('/', restify.serveStatic({
+ directory: __dirname,
+ default: 'index.html'
+}));
 
 //Create a bot
 var connector = new builder.ChatConnector({
